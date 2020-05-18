@@ -7,13 +7,13 @@ public class encapsulation
     private int geekRoll; 
     private int geekAge; 
   
-    
+   
     public int getAge()  
     { 
       return geekAge; 
     } 
    
-    
+   
     public String getName()  
     { 
       return geekName; 
@@ -31,13 +31,12 @@ public class encapsulation
       geekAge = newAge; 
     } 
    
-    
     public void setName(String newName) 
     { 
       geekName = newName; 
     } 
       
-   
+    
     public void setRoll( int newRoll)  
     { 
       geekRoll = newRoll; 
